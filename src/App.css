@@ -69,3 +69,49 @@ header .navigation li a {
   letter-spacing: 1px;
   transition: 0.3s;
 }
+
+.title-box{
+  background-color: white;
+  border-radius: 50px;
+  color: #252830;
+  width: 350px;
+  padding: 50px;
+  margin: 110px;
+  box-shadow: 0 4px 5px rgba(255, 255, 255, 0.699);
+}
+
+.wave{
+  font-size: 50px;
+  float: left;
+}
+
+.P-text{
+  font-size: 20px;
+  color: #7a7b7c;
+}
+
+.head-text{
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.work-box{
+  background-color: #fff;
+  border-radius: 50px;
+  color: #252830;
+  width: 350px;
+  padding: 50px;
+  margin: 110px;
+  position: relative;
+  top: -50px;
+  box-shadow: 0 4px 5px rgba(255, 255, 255, 0.699); 
+}
+
+.imgJ{
+  width: 400px;
+  margin-top: -700px;
+  margin-left: 45%;
+  border-radius: 60px;
+}
+
