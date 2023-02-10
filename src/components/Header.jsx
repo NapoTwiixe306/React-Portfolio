@@ -21,6 +21,14 @@ const Header = () => {
             </div>
             <div className="img-box">
                 <img src={julien} alt="img de moi" className="imgJ"/>
+                <FontAwesomeIcon icon={faGithub} className="git"/>
+                <FontAwesomeIcon icon={faGoogle} className="google"/>
+                <FontAwesomeIcon icon={faInstagram} className="insta"/>
+            </div>
+            <div className="me">
+                <div className="me-text">
+                    <p className="me-para">I am a young full-stack developer, self-taught, I started to code when I was 15, (5 years ago), so I am 20 years old, I specialize in web dev, and more precisely in web.3, crypto, and blockchain</p>
+                </div>
             </div>
         </div>
     );

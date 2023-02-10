@@ -113,5 +113,61 @@ header .navigation li a {
   margin-top: -700px;
   margin-left: 45%;
   border-radius: 60px;
+  transition: 0.3s;
 }
 
+.imgJ:hover{
+  width: 440px;
+}
+
+.git{
+  position: absolute;
+  bottom: 150px;
+  right: 51%;
+  font-size: 45px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.git:hover{
+  font-size: 60px;
+  color: var(--first-color);
+}
+
+.google{
+  position: absolute;
+  bottom: 150px;
+  right: 755px;
+  font-size: 45px;
+  transition: 0.3s;
+}
+
+.google:hover{
+  color: var(--first-color);
+}
+
+.insta{
+  position: absolute;
+  bottom: 150px;
+  right: 33%;
+  cursor: pointer;
+  font-size: 45px;
+  transition: 0.3s;
+}
+
+.insta:hover{
+  font-size: 60px;
+  color: var(--first-color);
+}
+
+.me-para{
+  position: absolute;
+  right: 190px;
+  top: 220px;
+  color: #ffffffde;
+  overflow: hidden;
+  max-width: 270px;
+  line-height: 1.7em;
+  font-size: 30px;
+  text-align: center;
+}
