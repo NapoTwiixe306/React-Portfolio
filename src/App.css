@@ -51,10 +51,6 @@ header .logo {
   transition: 0.3s;
 }
 
-header .logo:hover {
-  color: rgb(255, 164, 61);
-}
-
 
 header .navigation {
   display: flex;
