@@ -6,7 +6,6 @@ const Skills = () => {
        <div id="Skill">
             <div className="skill">
                 <h1 className="skill-title">My Skills</h1>
-                <p className="skill-para"></p>
                 <p className="skill-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae enim ipsam quaerat deleniti debitis officia possimus ratione? At excepturi pariatur in vitae tenetur ut magni temporibus maxime non ullam.</p>
             </div>
 
