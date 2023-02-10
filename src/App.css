@@ -67,6 +67,18 @@ header .navigation li a {
   transition: 0.3s;
 }
 
+.action{
+  position: relative;
+  padding: 10px;
+  background-color: var(--first-color);
+  border-radius: 50px;
+}
+
+.action:hover{
+  color: var(--second-color);
+  background-color: var(--text-color);
+} 
+
 .title-box{
   background-color: white;
   border-radius: 50px;
