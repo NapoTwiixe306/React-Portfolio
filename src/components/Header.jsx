@@ -25,9 +25,9 @@ const Header = () => {
             </div>
             <div className="img-box">
                 <img src={julien} alt="img de moi" className="imgJ"/>
-                <a href='https://github.com/NapoTwiixe306' target="_blank" rel='noopener noreferrer' className='lofo'><FontAwesomeIcon icon={faGithub} size="2x" className='git'/></a>
-                <a href='https://CryptoExtension.fr' target="_blank" rel='noopener noreferrer' className='lofo'><FontAwesomeIcon icon={faGoogle} size="2x" className='google'/></a>
-                <a href='https://www.instagram.com/julien.mlnts/' target="_blank" rel='noopener noreferrer' className='lofo'><FontAwesomeIcon icon={faInstagram} size="2x" className='insta'/></a>
+                <FontAwesomeIcon icon={faGithub} className="git"/>
+                <FontAwesomeIcon icon={faGoogle} className="google"/>
+                <FontAwesomeIcon icon={faInstagram} className="insta"/>
             </div>
             <div className="me">
                 <div className="me-text">
