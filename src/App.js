@@ -1,4 +1,4 @@
-import { Home, Header, Project, About, Contact, Footer } from './components';
+import { Home, Header,Skills, Project, About, Contact, Footer } from './components';
 import './App.css';
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <Home />
       <Header />
+      <Skills />
       <Project />
       <About />
       <Contact />

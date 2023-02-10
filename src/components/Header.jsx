@@ -17,7 +17,11 @@ const Header = () => {
             </div>
             <div className="work-box">
                 <p className="work">Full-stack Developper</p>
-                <p className="work">Junior</p>
+                <p className="work-g">Junior</p>
+            </div>
+            <div className="loc-box">
+                <span className="loce">📍</span>
+                <p className="loc">Belgium, Liège</p>
             </div>
             <div className="img-box">
                 <img src={julien} alt="img de moi" className="imgJ"/>

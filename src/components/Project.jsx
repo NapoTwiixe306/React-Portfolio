@@ -4,7 +4,7 @@ import '../App.css';
 
 const Project = () => {
     return (
-        <div>
+        <div className="tqt">
             <h1>Project</h1>
         </div>
     );
