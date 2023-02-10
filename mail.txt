@@ -1,0 +1,2 @@
+<label for="subject" className="text1">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." className="text"></textarea>
