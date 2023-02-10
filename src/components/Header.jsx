@@ -9,7 +9,7 @@ const julien = require('../img/julien.png')
 
 const Header = () => {
     return (
-        <div className="all">
+        <div className="all" id="home">
             <div className="title-box">
                 <span className="wave">👋</span>
                 <p className="P-text">Hello, i'm</p>
