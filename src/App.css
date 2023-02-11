@@ -224,32 +224,31 @@ header .navigation li a {
 
 .skill{
   position: relative;
-  bottom: 20px;
+  bottom: -50px;
   height: 500px;
-  /* background-color: red; */
 }
 
 .skill-title{
   position: relative;
-  top: 5px;
+  top: 170px;
   left: 100px;
   max-width: 500px;
-  font-size: 35px;
+  font-size: 50px;
 }
 
 .skill-para{
   position: relative;
   max-width: 600px;
-  top: 25px;
+  top: 175px;
   left: 100px;
-  line-height: 25px;
-  font-size: 21px;
+  line-height: 39px;
+  font-size: 30px;
 }
 
 .skill-box{
   position: absolute;
   width: 700px;
-  bottom: -150px;
+  bottom: -400px;
   right: 200px;
   /* border: 2px solid red; */
 }
@@ -303,13 +302,18 @@ header .navigation li a {
   background-color: #808080;
 }
 
+.Project{
+  position: relative;
+  top: 200px;
+}
+
 .card {
   position: relative;
   display: inline-block;
   width: 350px;
   height: 550px;
   margin: 20px;
-  top: -150px;
+  top: -10px;
   left: 250px;
   background-color: #fff;
   border-radius: 10px;
@@ -362,10 +366,12 @@ header .navigation li a {
 }
 
 .about{
+  position: relative;
   width: 100%;
   height: 100px;
-  top: -50px;
+  top: 300px;
   text-align: center;
+  background-color: #04AA6D;
 }
 
 .about-title{

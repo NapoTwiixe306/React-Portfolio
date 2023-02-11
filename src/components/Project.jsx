@@ -5,7 +5,7 @@ const code = require('../img/code.png')
 
 const Project = () => {
     return (
-        <div className="all" id="Project">
+        <div className="Project" id="Project">
             <div class="card">
                 <img src={code} alt="img de moi"/>
                 <div class="card-content">
