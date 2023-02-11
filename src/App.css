@@ -367,7 +367,7 @@ header .navigation li a:hover{
   cursor: pointer;
 }
 
-.about{
+.about {
   position: relative;
   width: 100%;
   height: 500px;
@@ -375,32 +375,25 @@ header .navigation li a:hover{
   text-align: center;
 }
 
-.about-title{
+.about-title {
   font-size: 50px;
   text-decoration: underline var(--first-color) 5px;
 }
 
-.about-text{
+.about-text,
+.about-text1 {
   position: relative;
-  top: -30px;
   padding: 50px;
   text-align: center;
   font-size: 27px;
-  /* background-color: red; */
 }
 
-.about-text1{
-  position: relative;
-  top: -110px;
-  padding: 50px;
-  text-align: center;
-  font-size: 27px;
-  /* background-color: red; */
+.about-text1 {
+  top: -75px;
 }
-
-
 
 .contact-box{
+  position: relative;
   width: 100%;
   height: 100px;
   text-align: center;
@@ -508,7 +501,7 @@ header .navigation li a:hover{
 .contact-text{
   position: absolute;
   right: 200px;
-  top: 285%;
+  top: 325%;
   color: #ffffffde;
   overflow: hidden;
   max-width: 660px;
