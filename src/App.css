@@ -25,12 +25,6 @@ body{
   transition: 0.5s;
 }
 
-.tqt{
-  position: relative;
-  bottom: -400px;
-  height: 155px;
-  background-color: violet;
-}
 
 /*==== HEADER ====*/
 header {
@@ -511,11 +505,18 @@ header .navigation li a:hover{
  
 }
 
+.wallet{
+  position: relative;
+  bottom: -850px;
+  height: 155px;
+  background-color: violet;
+}
+
 .footer{
   position: relative;
   margin-top: 1rem;
   padding: 1rem;
-  bottom: -900px;
+  bottom: -1000px;
   left: 0;
   width: 100%;
   height: -10px;

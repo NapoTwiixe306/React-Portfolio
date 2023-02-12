@@ -1,4 +1,4 @@
-import { Home, Header,Skills, Contact, Project, About, Footer } from './components';
+import { Home, Header,Skills, Contact, Project, About, Wallet, Footer } from './components';
 import './App.css';
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Project />
       <About />
       <Contact />
+      <Wallet />
       <Footer />
     </div>
   );
