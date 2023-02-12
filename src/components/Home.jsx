@@ -11,6 +11,7 @@ const Home = () => {
             <li><a href="#Project">Project</a></li>
             <li><a href="#About">About</a></li>
             <li><a href="#Contact" className="action">Contact</a></li>
+            <li><a href="#Wallet">Wallet</a></li>
         </ul> 
    </header>
     );

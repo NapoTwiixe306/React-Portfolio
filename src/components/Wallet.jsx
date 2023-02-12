@@ -1,11 +1,16 @@
 import React from "react";
-import connectWallet from './js/connectWallet.js';
 import '../App.css';
 
 const Wallet = () =>{
+
+    function connectWallet(){
+        alert("Hello")
+    }
+
     return(
-        <div className="wallet">
+        <div className="wallet" id="Wallet">
             <h1>Wallet</h1>
+            <button onClick={connectWallet}>Connect</button>
         </div>
     );
 }
