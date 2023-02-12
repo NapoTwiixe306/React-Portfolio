@@ -1,4 +1,5 @@
 import React from "react";
+import connectWallet from './js/connectWallet.js';
 import '../App.css';
 
 const Wallet = () =>{
