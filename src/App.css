@@ -488,7 +488,7 @@ header .navigation li a:hover{
 }
 
 .button:hover{
-  background-color: var(--text-color);
+  background-color: #ddd;
   color: var(--second-color);
 }
 
@@ -510,6 +510,30 @@ header .navigation li a:hover{
   bottom: -850px;
   height: 400px;
   background-color: violet;
+}
+
+.button-connection{
+  border-radius: 9px;
+  background-color: var(--first-color); /* Green */
+  border: none;
+  color: #000000;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.button-connection:hover {
+  background-color: #ddd;
+  color: var(--second-color);
+}
+
+.ethAdresse{
+  color: var(--second-color);
+  font-weight: 600;
+  font-size: 25px;
 }
 
 .footer{

@@ -45,7 +45,7 @@ const Wallet = () => {
         <div className="wallet" id="Wallet">
             <h1>Wallet</h1>
             <button id="loginButton" className="button-connection">{loginButtonText}</button>
-            <p id="userWallet" className="text-lg text-gray-600 my-2">{userWalletAddress}</p>
+            <p id="userWallet" className="text-lg text-gray-600 my-2 ethAdresse">{userWalletAddress}</p>
         </div>
     );
 };
